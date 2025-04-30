@@ -2,7 +2,7 @@
 
 **Objective:** Simple aplication to scrape Amazon product listings from the first page of search results for a given keyword.
 
-## Task Requirements:
+## Documentation:
 
 ### Backend/API (Bun):
 
