@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "install:all": "bun install && (cd backend && bun install) && (cd frontend && bun install)",
+    "dev": "bun run start:all",
+    "start:all": "bunx concurrently -n FRONT,BACK -c green,blue \"bun --cwd frontend dev\" \"bun --cwd backend dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
