@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/style.css" />
+  <title>Amazon Scraper</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Amazon Search Product Scraper</h1>
+    <div class="search">
+      <label for="keyword" class="search-label">All</label>
+      <input type="text" id="keyword" name="keyword" class="search-bar" placeholder="Search Amazon" />
+      <button id="scrape-button" type="button">🔎</button>
+    </div>
+  </header>
+  <section id="app" class="container">
+    <div id="results">
+      <p>Search for items</p>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </section>
+  <footer class="footer">
+    <div>
+      <p>
+        This project is educational in nature and was developed for study purposes only.
+        <br />
+        No affiliation with Amazon or any other company is claimed.
+        All displayed data is publicly available and not stored.
+      </p>
+      <p>
+        © 2025 Bruno. View the source on
+        <a class="link" href="https://github.com/blguimaraes/amazon-product-scraper" target="_blank"
+          rel="noopener">GitHub</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
