@@ -28,13 +28,17 @@ All displayed data is publicly available and not stored.
 
 ---
 
-### To install dependencies:
+### To run the project:
+
+Clone the repository at: https://github.com/blguimaraes/amazon-product-scraper
+
+#### To install dependencies:
 
 ```bash
 bun install:all
 ```
 
-To run:
+#### To run:
 
 ```bash
 bun run dev
